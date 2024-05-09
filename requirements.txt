@@ -5,4 +5,3 @@ numpy
 protobuf==3.19.*
 ultralytics
 dill
-sreamlit_copper
