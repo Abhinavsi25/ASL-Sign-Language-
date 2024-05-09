@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 import streamlit as st
 from PIL import Image
 from tensorflow.keras.models import load_model
@@ -228,5 +228,5 @@ if a:
     major_index = np.argmax(pred[0])
 
     st.write(major_index)
->>>>>>> 779722741190497d9c57f9570ffd6b8fd2fa7a19
+# >>>>>>> 779722741190497d9c57f9570ffd6b8fd2fa7a19
     st.info(f'Predicted Class : {mapper[major_index]}')
