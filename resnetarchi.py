@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 from tensorflow.keras import layers 
 from tensorflow.keras.models import load_model
 
@@ -62,5 +62,5 @@ class ResidualUnit(layers.Layer):
         return layers.Activation(self.activation)(Z + skip_Z)
     
 
->>>>>>> 779722741190497d9c57f9570ffd6b8fd2fa7a19
+# >>>>>>> 779722741190497d9c57f9570ffd6b8fd2fa7a19
 model = load_model('ASL_model.h5')
