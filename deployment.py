@@ -113,7 +113,7 @@ if a:
     major_index = np.argmax(pred[0])
 
     st.write(major_index)
-=======
+
 import streamlit as st
 from PIL import Image
 from tensorflow.keras.models import load_model
