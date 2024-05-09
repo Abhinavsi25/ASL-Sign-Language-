@@ -7,3 +7,4 @@ ultralytics
 dill
 tensorflow
 streamlit
+streamlit_cropper
