@@ -30,7 +30,6 @@ class ResidualUnit(layers.Layer):
         return layers.Activation(self.activation)(Z + skip_Z)
     
 
-=======
 from tensorflow.keras import layers 
 from tensorflow.keras.models import load_model
 
